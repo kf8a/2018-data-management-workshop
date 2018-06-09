@@ -38,7 +38,8 @@ Keeping track of your changes
 ![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png
 "spreadsheet notes")
 
-Note: When cleaning up a dataset or doing a quick and dirty analysis it is easy
+Note:
+When cleaning up a dataset or doing a quick and dirty analysis it is easy
 to end up with a very different spreadsheet than you started with. Keep track of
 the changes in log in a separate tab.
 That way you can figure out what you did when Reviewer #3 asks to see a
@@ -57,7 +58,8 @@ dirty", documenting a spreadsheet analysis is a bit work.
 4. Leave the raw data raw - don't change it!
 5. Export the cleaned data to a text-based format like CSV (comma-separated values) format.
 
-Note: all variables should go into columns, the variables are the things that
+Note:
+all variables should go into columns, the variables are the things that
 you are measuring like temperature, height, carbon, number of a species
 
 Each observation should be in it's own row (tidy data) so each sample on it's
@@ -130,7 +132,8 @@ Combining values
 http://url-of-data
 
 
-Note: what would you like to see?
+Note:
+what would you like to see?
 
 ---
 
@@ -151,7 +154,8 @@ Why CSV?
 
 ![file_formats](http://oshtemo.kbs.msu.edu/bohms/file-extension.png "file formats")
 
-Note: Here I looked up the approximate years when spreadsheet programs introduced and
+Note:
+Here I looked up the approximate years when spreadsheet programs introduced and
 replaced file formats. I then added 14 years as the legacy time period when the
 same or other spreadsheets support the format. 14 years was the time between the
 release of the last spreadsheet that defaulted to .wk1 files to the time that MS
