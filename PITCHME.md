@@ -67,6 +67,8 @@ Keeping track of your changes
 
 ![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png)
 
+Note:
+There is a test note
 ---
 
 Keeping track of changes
