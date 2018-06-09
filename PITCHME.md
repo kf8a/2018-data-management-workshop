@@ -31,6 +31,7 @@ Each type of observational unit forms a table.
 
 
       From Data Carpetry Spreadsheet in ecology lesson
+
 ---
 
 Keeping track of your changes
@@ -120,7 +121,6 @@ Making it pretty
 ---
 
 Placing comments in cells
-
 
 ---
 
@@ -256,3 +256,5 @@ join weather on ants.date = weather.date
 ---
 
 ## Graphing in R
+
+---
