@@ -77,22 +77,8 @@ different analysis
 
 Also I talked about changes to data or "data wrangling" and "quick and dirty"
 analysis. For repeatable analyses there are better tools that a spreadsheet.
+
 ---
-
-Keeping track of changes
-
-Note:
-When cleaning up a dataset or doing a quick and dirty analysis it is easy
-to end up with a very different spreadsheet than you started with. Keep track of
-the changes in log in a separate tab.
-
-That way you can figure out what you did when Reviewer #3 asks to see a
-different method of analysis. Also note that I said to keep track of your
-changes to the data, I did not talk about data analysis. While spreadsheets are
-good for a quick and dirty analysis, the emphasis should be on "quick and
-dirty", documenting a spreadsheet analysis is a bit work.
-
-----
 
 ## Spreadsheet organization
 
