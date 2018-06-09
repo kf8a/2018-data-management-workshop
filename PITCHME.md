@@ -38,8 +38,8 @@ Keeping track of your changes
 ![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png
 "spreadsheet notes")
 
-Note:
 
+Note:
 When cleaning up a dataset or doing a quick and dirty analysis it is easy
 to end up with a very different spreadsheet than you started with. Keep track of
 the changes in log in a separate tab.
@@ -68,9 +68,11 @@ you are measuring like temperature, height, carbon, number of a species
 Each observation should be in it's own row (tidy data) so each sample on it's
 own row
 
-Don't combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that's the only way you’ll want to be able to use or sort that data.
+Don't combine multiple pieces of information in one cell.
+Sometimes it just seems like one thing, but think if that's the only way you’ll want to be able to use or sort that data.
 
-Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
+Export the cleaned data to a text-based format like CSV (comma-separated values) format.
+This ensures that anyone can use the data, and is required by most data repositories.
 
 ---
 
