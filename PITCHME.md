@@ -53,8 +53,7 @@ Each type of observation has it's own table
 
 Keeping track of your changes
 
-![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png
-"spreadsheet notes")
+![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png "spreadsheet notes")
 
 
 Note:
