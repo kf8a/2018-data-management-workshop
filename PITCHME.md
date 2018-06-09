@@ -39,9 +39,11 @@ Keeping track of your changes
 "spreadsheet notes")
 
 Note:
+
 When cleaning up a dataset or doing a quick and dirty analysis it is easy
 to end up with a very different spreadsheet than you started with. Keep track of
 the changes in log in a separate tab.
+
 That way you can figure out what you did when Reviewer #3 asks to see a
 different method of analysis. Also note that I said to keep track of your
 changes to the data, I did not talk about data analysis. While spreadsheets are
@@ -58,8 +60,9 @@ dirty", documenting a spreadsheet analysis is a bit work.
 4. Leave the raw data raw - don't change it!
 5. Export the cleaned data to a text-based format like CSV (comma-separated values) format.
 
+
 Note:
-all variables should go into columns, the variables are the things that
+All variables should go into columns, the variables are the things that
 you are measuring like temperature, height, carbon, number of a species
 
 Each observation should be in it's own row (tidy data) so each sample on it's
