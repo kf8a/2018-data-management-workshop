@@ -67,6 +67,9 @@ Keeping track of your changes
 
 ![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png)
 
+---
+
+Keeping track of changes
 
 Note:
 When cleaning up a dataset or doing a quick and dirty analysis it is easy
