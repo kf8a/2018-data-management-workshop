@@ -10,6 +10,9 @@
 - [Data One](https://www.dataone.org)
 - [Dryad](https://datadryad.org)
 
+Note:
+Here are some data sources that might be useful at some point.
+
 ---
 
 > ...tidy datasets are all alike, but every messy dataset is messy in its own way.
@@ -23,6 +26,20 @@ Each variable forms a column.
 Each observation forms a row.
 
 Each type of observational unit forms a table.
+
+
+Note:
+
+The characteristics of a tidy dataset are:
+
+Each variable is in a column. These are the things that are measured for example
+temperature.
+
+Each observation is a row. All variables that are measured on the same
+observation are together. An observation might be a sample, it might be a
+capture record, it might be...
+
+Each type of observation has it's own table
 
 ---
 
