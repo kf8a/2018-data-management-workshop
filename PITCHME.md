@@ -46,14 +46,26 @@ Each type of observation has it's own table
 [Data Organization in Spreadsheets](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 
 
+From Data Carpetry Spreadsheet in ecology lesson
 
-      From Data Carpetry Spreadsheet in ecology lesson
+---
+
+A spreadsheet is not a lab notebook
+
+
+Note:
+Most of the problems with spreadsheet use are a result of thinking of a
+spreadsheet like a lab notebook. We make notes in the margins, draw doodles and
+diagrams, intersperse it with graphs of interesting side projects.  While people
+especially those that are close in time and space can generally figure out what
+is meant, computers are clueless. If you want your data to be re-used in the
+future creating datasets that are computer accessible is important
 
 ---
 
 Keeping track of your changes
 
-![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png "spreadsheet notes")
+![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png)
 
 
 Note:
@@ -79,6 +91,7 @@ dirty", documenting a spreadsheet analysis is a bit work.
 
 
 Note:
+
 All variables should go into columns, the variables are the things that
 you are measuring like temperature, height, carbon, number of a species
 
@@ -95,8 +108,8 @@ This ensures that anyone can use the data, and is required by most data reposito
 
 ## Spreadsheet organization
 
-![organization](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/multiple-info.png
-"Spreadsheet Organization")
+![organization](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/multiple-info.png)
+
 
 ---
 
@@ -108,11 +121,14 @@ https://ndownloader.figshare.com/files/2252083
 
 ## Common spreadsheet errors
 
+Note:
+I wanted to run through a couple of common spreadsheet errors
+
 ---
 
 Using multiple tables
 
-![tables](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/2_datasheet_example.jpg "multiple tables")
+![tables](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/2_datasheet_example.jpg)
 
 ---
 
@@ -122,13 +138,13 @@ Using multiple tabs
 
 Problematic null values
 
-![null_values](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/3_white_table_1.jpg "problematic null values")
+![null_values](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/3_white_table_1.jpg)
 
 ---
 
 Using formatting to convey information
 
-![formatting](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/formatting.png "don't use formatting for information")
+![formatting](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/formatting.png)
 
 ---
 
