@@ -68,7 +68,15 @@ Keeping track of your changes
 ![spreadsheet](https://raw.githubusercontent.com/datacarpentry/spreadsheet-ecology-lesson/gh-pages/fig/spreadsheet-setup.png)
 
 Note:
-There is a test note
+When cleaning up a dataset or doing a quick and dirty analysis it is easy to end
+up with a very different spreadsheet. So we need to keep track of the changes.
+One way to do that is to keep a log in a separate tab.
+
+That way you can figure out what you did when Reviewer #3 asks to see a
+different analysis
+
+Also I talked about changes to data or "data wrangling" and "quick and dirty"
+analysis. For repeatable analyses there are better tools that a spreadsheet.
 ---
 
 Keeping track of changes
