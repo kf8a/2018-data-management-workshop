@@ -41,11 +41,9 @@ Here we are focusing mostly on datasets that have a row and column structure.
 
 @ul
 
-Each variable forms a column.
-
-Each observation forms a row.
-
-Each type of observational unit forms a table.
+- Each variable forms a column.
+- Each observation forms a row.
+- Each type of observational unit forms a table.
 
 @ulend
 
