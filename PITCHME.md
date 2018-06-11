@@ -16,9 +16,26 @@ Here are some data sources that might be useful.
 
 ---
 
-> ...tidy datasets are all alike, but every messy dataset is messy in its own way.
+### Tidy data
+
+Note:
+
+Data prep can take up to 80% of the time spent in data analysis and it needs to
+be repeated many times over the course of the analysis or across multiple
+analysis. Data tidying is the process of structuring datasets to make analysis
+easier
+
+---
+
+> Like families, tidy datasets are all alike, but every messy dataset is messy in its own way.
 
 <div style="text-align: right"> Hadly Wickham 2014 </div>
+
+Note:
+The principles of tidy data provide a standard way of structuring data so that
+we do not have to re-invent the wheel for each new study.
+
+Here we are focusing mostly on datasets that have a row and column structure.
 
 ---
 
