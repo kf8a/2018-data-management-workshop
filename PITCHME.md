@@ -198,25 +198,108 @@ Structured metadata
 
 ```xml
 <eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://lter.kbs.msu.edu/docs/eml/eml.xsd" packageId="knb-lter-kbs.11.25" system="KBS LTER">
+<access scope="document" order="allowFirst" authSystem="knb">
+....
 <dataset id="/datasets/14.eml">
-<title>
-Microbial Biomass Dynamics at the Kellogg Biological Station, Hickory Corners, MI (1989 to 1996)
-</title>
-<creator>
-<individualName>
-<givenName>David</givenName>
-<surName>Harris</surName>
-</individualName>
-<organizationName>UC Davis</organizationName>
-<address>
-<deliveryPoint>122 Hunt Hall</deliveryPoint>
-<city>Davis</city>
-<administrativeArea>CA</administrativeArea>
-<postalCode>95616</postalCode>
-</address>
-<phone phonetype="phone">(530) 754-7517</phone>
-<phone phonetype="fax">(530)752-4361</phone>
-</creator>
+  <title>
+    Microbial Biomass Dynamics at the Kellogg Biological Station, Hickory Corners, MI (1989 to 1996)
+  </title>
+  ...
+  <pubDate>2018-06-11</pubDate>
+  <abstract>
+    <section>
+    <title>Dataset Abstract</title>
+    <para>
+      The purpose of these studies is to determine patterns of microbial biomass
+      dynamics ....
+    </para>
+    <para>
+      original data source http://lter.kbs.msu.edu/datasets/14
+    </para>
+    </section>
+  </abstract>
+  ...
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>
+        The areas around the Kellogg Biological Station in southwest Michigan
+      </geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-85.404699</westBoundingCoordinate>
+        <eastBoundingCoordinate>-85.366857</eastBoundingCoordinate>
+        <northBoundingCoordinate>42.420265</northBoundingCoordinate>
+        <southBoundingCoordinate>42.391019</southBoundingCoordinate>
+        </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+      <beginDate>
+        <calendarDate>1989-04-24</calendarDate>
+      </beginDate>
+      <endDate>
+        <calendarDate>1996-05-07</calendarDate>
+      </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  ....
+  <dataTable id="/datatables/25">
+  <entityName>
+  Kellogg Biological Station LTER: Soil Microbial Biomass via Chloroform Fumigation (KBS011-001)
+  </entityName>
+  <entityDescription>
+    Soil microbial biomass carbon and nitrogen as determined by chloroform fumigation - incubation.
+  </entityDescription>
+  <physical>
+    <objectName>Soil+Microbial+Biomass+via+Chloroform+Fumigation</objectName>
+      <encodingMethod>None</encodingMethod>
+    <dataFormat>
+      <textFormat>
+        <numHeaderLines>69</numHeaderLines>
+        <numFooterLines>1</numFooterLines>
+        <recordDelimiter>\n</recordDelimiter>
+        <attributeOrientation>column</attributeOrientation>
+        <simpleDelimited>
+          <fieldDelimiter>,</fieldDelimiter>
+          ...
+        </simpleDelimited>
+      </textFormat>
+    </dataFormat>
+    <distribution>
+    <online>
+      <url>https://lter.kbs.msu.edu/datatables/25.csv</url>
+    </online>
+    </distribution>
+  </physical>
+  <attributeList>
+  <attribute>
+    <attributeName>date</attributeName>
+      <attributeDefinition>date of sampling</attributeDefinition>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY-MM-DD</formatString>
+          <dateTimePrecision>1</dateTimePrecision>
+          <dateTimeDomain>
+            <bounds>
+              <minimum exclusive="true">1987-4-18</minimum>
+            </bounds>
+          </dateTimeDomain>
+        </dateTime>
+      </measurementScale>
+    </attribute>
+    <attribute>
+      <attributeName>trt</attributeName>
+      <attributeDefinition>cropping system treatment</attributeDefinition>
+      <measurementScale>
+        <nominal>
+          <nonNumericDomain>
+            <textDomain>
+              <definition>cropping system treatment</definition>
+            </textDomain>
+          </nonNumericDomain>
+        </nominal>
+      </measurementScale>
+    </attribute>
 ```
 
 ---
