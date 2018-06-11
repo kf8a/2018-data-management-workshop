@@ -235,6 +235,13 @@ Working with data vs working with code that works with data
 
 ---
 
+- selecting subset of data
+- group subsets of data
+- do calculations
+- combine data
+
+---
+
 ### What is SQL good for
 
 - rapid access
@@ -256,7 +263,7 @@ Working with data vs working with code that works with data
 - object
 - modifier
 
-not always in that order
+Not always in that order
 
 ---
 
