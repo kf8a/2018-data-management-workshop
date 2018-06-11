@@ -154,6 +154,7 @@ Using formatting to convey information
 
 Making it pretty
 
+It is not a lab notebook
 ---
 
 Placing comments in cells
@@ -193,7 +194,34 @@ https://github.com/EDIorg/MetadataTemplates
 
 ---
 
-Data vs presentation
+Structured metadata
+
+```xml
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://lter.kbs.msu.edu/docs/eml/eml.xsd" packageId="knb-lter-kbs.11.25" system="KBS LTER">
+<dataset id="/datasets/14.eml">
+<title>
+Microbial Biomass Dynamics at the Kellogg Biological Station, Hickory Corners, MI (1989 to 1996)
+</title>
+<creator>
+<individualName>
+<givenName>David</givenName>
+<surName>Harris</surName>
+</individualName>
+<organizationName>UC Davis</organizationName>
+<address>
+<deliveryPoint>122 Hunt Hall</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>CA</administrativeArea>
+<postalCode>95616</postalCode>
+</address>
+<phone phonetype="phone">(530) 754-7517</phone>
+<phone phonetype="fax">(530)752-4361</phone>
+</creator>
+```
+
+---
+
+## Data Archiving
 
 ---
 
@@ -235,6 +263,7 @@ Working with data vs working with code that works with data
 
 ---
 
+### Tasks
 - selecting subset of data
 - group subsets of data
 - do calculations
