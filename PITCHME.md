@@ -12,7 +12,7 @@ KBS-LTER
 - [Dryad](https://datadryad.org)
 
 Note:
-Here are some data sources that might be useful at some point.
+Here are some data sources that might be useful.
 
 ---
 
@@ -174,20 +174,26 @@ http://url-of-data
 
 
 Note:
-what would you like to see?
+which info do you want to see.
 
 ---
 
-- What why where when who
-  - Description
-  - Units
-  - Protocols
-  - Comments
-
+What, Why, Where, When and Who
 
 ---
 
-  https://github.com/EDIorg/MetadataTemplates
+- Description
+- Units
+- Protocols
+- Comments
+
+---
+
+https://github.com/EDIorg/MetadataTemplates
+
+---
+
+Data vs presentation
 
 ---
 
@@ -210,18 +216,22 @@ compatibility.
 
 ---
 
-Data vs presentation
-
----
-
 ## Cleaning messy datasets
 
 - http://openrefine.org
 - SQL
 
-___
+---
 
 ## Data  organization in SQL
+
+---
+
+Buffet vs ordering from a menu
+
+---
+
+Working with data vs working with code that works with data
 
 ---
 
@@ -230,7 +240,7 @@ ___
 - rapid access
 - input validation and checking
 - one source of truth
-- generating convenient representations of the data for analysis
+- representation of data for analysis
 
 ---
 
@@ -245,7 +255,6 @@ ___
 - action
 - object
 - modifier
-
 
 not always in that order
 
