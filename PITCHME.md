@@ -7,7 +7,7 @@ KBS-LTER
 
 - [KBS LTER data catalog](https://lter.kbs.msu.edu/datatables)
 - [GLBRC sustainability catalog](https://data.sustainability.glbrc.org)
-- [Data Portal - Home | Environmental Data Initiative (EDI)](https://portal.edirepository.org/nis/home.jsp)
+- [Environmental Data Initiative (EDI)](https://portal.edirepository.org/nis/home.jsp)
 - [Data One](https://www.dataone.org)
 - [Dryad](https://datadryad.org)
 
@@ -190,11 +190,43 @@ What, Why, Where, When and Who
 
 ---
 
+#### Unstructured metadata
+
+
+```
+# Agronomic Yields - Annual Crops
+#
+# Original Data Source: https://lter.kbs.msu.edu/datatables/51
+# The newest version of the data https://lter.kbs.msu.edu/datatables/51.csv
+# Full EML Metadata: https://lter.kbs.msu.edu/datasets/23.eml
+#
+# These Data are copyrighted and use in a publication requires permission
+# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/
+# Use of the data constitutes acceptance of the terms.
+#
+#     VARIATE TABLE
+# Date		    harvest date
+# Treatment		treatment
+# Replicate		replicate
+# Crop		    crop species collected
+# Yield_bu_A	bushelsPerAcre	crop kernel/seed harvested at crop harvest in bu/A (at standardized moisture for corn 15.5%, wheat/soybean 13%; conversions for corn: 56 pounds/bushel wheat/soybeans: 60 pounds/bushel)
+# Yield_kg_ha	kilogramsPerHectare	crop kernel/seed harvested at crop harvest in kg/ha (at standardized moisture for corn 15.5%, wheat/soybean 13%)
+# Year		    crop year
+#
+#
+Date,Treatment,Replicate,Crop,Yield_bu_A,Yield_kg_ha,Year
+#,,,,bushelsPerAcre,kilogramsPerHectare,
+```
+
+---
+
+#### Semi structured metadata
+
 https://github.com/EDIorg/MetadataTemplates
 
 ---
 
-Structured metadata
+#### Structured metadata
 
 ```xml
   <dataTable id="/datatables/25">
@@ -213,10 +245,20 @@ Structured metadata
           <formatString>YYYY-MM-DD</formatString>
           <dateTimePrecision>1</dateTimePrecision>
           <dateTimeDomain>
-            <bounds>
-              <minimum exclusive="true">1987-4-18</minimum>
-            </bounds>
 ```
+
+---
+
+#### So what.
+
+
+https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.20.36
+
+Note:
+Having structured metadata enables us to write programs that use the data. For
+example you remember the analysis programs on the EDI portal site. Nobody is
+siting around to write these program but John Porter wrote a style-sheet to
+translate the structured metadata into an analysis program.
 
 ---
 
