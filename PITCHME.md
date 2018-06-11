@@ -39,6 +39,8 @@ Here we are focusing mostly on datasets that have a row and column structure.
 
 ---
 
+### Principles of tidy data
+
 @ul
 
 - Each variable forms a column.
