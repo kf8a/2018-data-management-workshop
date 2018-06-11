@@ -30,15 +30,25 @@ http://url-of-data
 Note:
 which info do you want to see.
 
+---?image=http://oshtemo.kbs.msu.edu/bohms/mesocosm2009.jpeg
+
+---
+
+
+![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2011.jpeg)
+
 ---
 
 What, Why, Where, When and Who
 
 ---
 
+- Contact
 - Description
-- Units
+    - Project
+    - Experiment
 - Protocols
+- Attributes and Units
 - Comments
 
 ---
