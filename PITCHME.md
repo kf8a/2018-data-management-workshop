@@ -21,11 +21,15 @@ Here are some data sources that might be useful at some point.
 
 ---
 
+@ul
+
 Each variable forms a column.
 
 Each observation forms a row.
 
 Each type of observational unit forms a table.
+
+@ulend
 
 
 Note:
@@ -209,13 +213,20 @@ Data vs presentation
 
 ---
 
+## Cleaning messy datasets
+
+- http://openrefine.org
+- SQL
+
+___
+
 ## Data  organization in SQL
 
 ---
 
 ### What is SQL good for
 
-- rapid access to large amounts of information
+- rapid access
 - input validation and checking
 - one source of truth
 - generating convenient representations of the data for analysis
