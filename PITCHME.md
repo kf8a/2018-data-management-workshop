@@ -1,5 +1,7 @@
-# Data Workshop 2018
+# Data Workshop
 KBS-LTER
+
+2018-06-12
 
 ---
 
@@ -16,14 +18,141 @@ Here are some data sources that might be useful.
 
 ---
 
+## Data in context (metadata)
+
+---
+
+## Metadata exercise
+
+http://url-of-data
+
+
+Note:
+which info do you want to see.
+
+---
+
+What, Why, Where, When and Who
+
+---
+
+- Description
+- Units
+- Protocols
+- Comments
+
+---
+
+#### Unstructured metadata
+
+
+```
+# Agronomic Yields - Annual Crops
+#
+# Original Data Source: https://lter.kbs.msu.edu/datatables/51
+# The newest version of the data https://lter.kbs.msu.edu/datatables/51.csv
+# Full EML Metadata: https://lter.kbs.msu.edu/datasets/23.eml
+#
+# These Data are copyrighted and use in a publication requires permission
+# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/
+# Use of the data constitutes acceptance of the terms.
+#
+#     VARIATE TABLE
+# Date		    harvest date
+# Treatment		treatment
+# Replicate		replicate
+# Crop		    crop species collected
+# Yield_bu_A	bushelsPerAcre	crop kernel/seed harvested at crop harvest in bu/A (at standardized moisture for corn 15.5%, wheat/soybean 13%; conversions for corn: 56 pounds/bushel wheat/soybeans: 60 pounds/bushel)
+# Yield_kg_ha	kilogramsPerHectare	crop kernel/seed harvested at crop harvest in kg/ha (at standardized moisture for corn 15.5%, wheat/soybean 13%)
+# Year		    crop year
+#
+#
+Date,Treatment,Replicate,Crop,Yield_bu_A,Yield_kg_ha,Year
+#,,,,bushelsPerAcre,kilogramsPerHectare,
+```
+
+---
+
+#### Semi structured metadata
+
+https://github.com/EDIorg/MetadataTemplates
+
+---
+
+#### Structured metadata
+
+```xml
+  <dataTable id="/datatables/25">
+  <entityName>
+  Kellogg Biological Station LTER: Soil Microbial Biomass via Chloroform Fumigation (KBS011-001)
+  </entityName>
+  <entityDescription>
+    Soil microbial biomass carbon and nitrogen as determined by chloroform fumigation - incubation.
+  </entityDescription>
+  <attributeList>
+  <attribute>
+    <attributeName>date</attributeName>
+      <attributeDefinition>date of sampling</attributeDefinition>
+      <measurementScale>
+        <dateTime>
+          <formatString>YYYY-MM-DD</formatString>
+          <dateTimePrecision>1</dateTimePrecision>
+          <dateTimeDomain>
+```
+
+---
+
+#### So what.
+
+
+https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.20.36
+
+Note:
+So what, that looks like a lot of work.
+Having structured metadata enables us to write programs that use the data. For
+example you remember the analysis programs on the EDI portal site. Nobody is
+siting around to write these program but John Porter wrote a style-sheet to
+translate the structured metadata into an analysis program.
+
+---
+
+## Data Archiving Formats
+
+- CSV
+- CSV
+- CSV
+
+---
+
+Why CSV?
+
+![file_formats](http://oshtemo.kbs.msu.edu/bohms/file-extension.png "file formats")
+
+Note:
+Here I looked up the approximate years when spreadsheet programs introduced and
+replaced file formats. I then added 14 years as the legacy time period when the
+same or other spreadsheets support the format. 14 years was the time between the
+release of the last spreadsheet that defaulted to .wk1 files to the time that MS
+ended support for .wk1
+
+ASCII has been around since 1960 and it's still in use 80 years later. I have a
+reasonable degree of confidence that it will be readable in the future.
+
+CSV is generally preferred by repositories, due to it's durability and
+compatibility.
+---
+
 ### Tidy data
+
+Well structured and portable
 
 Note:
 
 Data prep can take up to 80% of the time spent in data analysis and it needs to
 be repeated many times over the course of the analysis or across multiple
 analysis. Data tidying is the process of structuring datasets to make analysis
-easier
+and reuse easier.  We can make data more portability between analysis programs,
+between researchers and between questions
 
 ---
 
@@ -33,7 +162,7 @@ easier
 
 Note:
 The principles of tidy data provide a standard way of structuring data so that
-we do not have to re-invent the wheel for each new study.
+we do not have to re-invent the wheel for each new project.
 
 Here we are focusing mostly on datasets that have a row and column structure.
 
@@ -41,14 +170,9 @@ Here we are focusing mostly on datasets that have a row and column structure.
 
 ### Principles of tidy data
 
-@ul
-
 - Each variable forms a column.
 - Each observation forms a row.
 - Each type of observational unit forms a table.
-
-@ulend
-
 
 Note:
 
@@ -68,7 +192,7 @@ Each type of observation has it's own table
 [Data Organization in Spreadsheets](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 
 
-From Data Carpetry Spreadsheet in ecology lesson
+From Data Carpentry Spreadsheet in ecology lesson
 
 ---
 
@@ -182,130 +306,11 @@ Combining values
 
 ---
 
-## Data in context (metadata)
-
----
-
-## Metadata exercise
-
-http://url-of-data
-
-
-Note:
-which info do you want to see.
-
----
-
-What, Why, Where, When and Who
-
----
-
-- Description
-- Units
-- Protocols
-- Comments
-
----
-
-#### Unstructured metadata
-
-
-```
-# Agronomic Yields - Annual Crops
-#
-# Original Data Source: https://lter.kbs.msu.edu/datatables/51
-# The newest version of the data https://lter.kbs.msu.edu/datatables/51.csv
-# Full EML Metadata: https://lter.kbs.msu.edu/datasets/23.eml
-#
-# These Data are copyrighted and use in a publication requires permission
-# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/
-# Use of the data constitutes acceptance of the terms.
-#
-#     VARIATE TABLE
-# Date		    harvest date
-# Treatment		treatment
-# Replicate		replicate
-# Crop		    crop species collected
-# Yield_bu_A	bushelsPerAcre	crop kernel/seed harvested at crop harvest in bu/A (at standardized moisture for corn 15.5%, wheat/soybean 13%; conversions for corn: 56 pounds/bushel wheat/soybeans: 60 pounds/bushel)
-# Yield_kg_ha	kilogramsPerHectare	crop kernel/seed harvested at crop harvest in kg/ha (at standardized moisture for corn 15.5%, wheat/soybean 13%)
-# Year		    crop year
-#
-#
-Date,Treatment,Replicate,Crop,Yield_bu_A,Yield_kg_ha,Year
-#,,,,bushelsPerAcre,kilogramsPerHectare,
-```
-
----
-
-#### Semi structured metadata
-
-https://github.com/EDIorg/MetadataTemplates
-
----
-
-#### Structured metadata
-
-```xml
-  <dataTable id="/datatables/25">
-  <entityName>
-  Kellogg Biological Station LTER: Soil Microbial Biomass via Chloroform Fumigation (KBS011-001)
-  </entityName>
-  <entityDescription>
-    Soil microbial biomass carbon and nitrogen as determined by chloroform fumigation - incubation.
-  </entityDescription>
-  <attributeList>
-  <attribute>
-    <attributeName>date</attributeName>
-      <attributeDefinition>date of sampling</attributeDefinition>
-      <measurementScale>
-        <dateTime>
-          <formatString>YYYY-MM-DD</formatString>
-          <dateTimePrecision>1</dateTimePrecision>
-          <dateTimeDomain>
-```
-
----
-
-#### So what.
-
-
-https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.20.36
-
-Note:
-Having structured metadata enables us to write programs that use the data. For
-example you remember the analysis programs on the EDI portal site. Nobody is
-siting around to write these program but John Porter wrote a style-sheet to
-translate the structured metadata into an analysis program.
-
----
-
-## Data Archiving
-
----
-
-Why CSV?
-
-![file_formats](http://oshtemo.kbs.msu.edu/bohms/file-extension.png "file formats")
-
-Note:
-Here I looked up the approximate years when spreadsheet programs introduced and
-replaced file formats. I then added 14 years as the legacy time period when the
-same or other spreadsheets support the format. 14 years was the time between the
-release of the last spreadsheet that defaulted to .wk1 files to the time that MS
-ended support for .wk1
-
-ASCII has been around since 1960 and it's still in use 80 years later. I have a
-reasonable degree of confidence that it will be readable in the future.
-
-CSV is generally preferred by repositories, due to it's durability and
-compatibility.
-
----
-
 ## Cleaning messy datasets
 
 - http://openrefine.org
 - SQL
+
 
 ---
 
