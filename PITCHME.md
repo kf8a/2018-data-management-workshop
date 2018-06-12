@@ -220,7 +220,7 @@ analysis. For repeatable analyses there are better tools that a spreadsheet.
 2. Put each observation in its own row. <!-- .element: class="fragment" data-fragment-index="2" -->
 3. Don't combine multiple pieces of information in one cell. <!-- .element: class="fragment" data-fragment-index="3" -->
 4. Leave the raw data raw - don't change it! <!-- .element: class="fragment" data-fragment-index="4" -->
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. <!-- .element: class="fragment" data-fragment-index="5" -->
+5. Export the cleaned data to a text-based format like CSV (comma-separated values). <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 Note:
