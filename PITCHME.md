@@ -384,21 +384,6 @@ Note:
 Database tables are just like the spreadsheet tables except typed
 
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vegie_buffet.jpg/1024px-Vegie_buffet.jpg)
-
-Note:
-using a database is like going from a buffet to ordering from the menu  it keeps the messy stuff out of view
-
----
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG/541px-Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG)
-
-
----
-
-Working with data vs working with code that works with data
-
----
 
 ### Tasks
 - selecting subset of data
@@ -423,7 +408,17 @@ Working with data vs working with code that works with data
 
 ---
 
-### Importing data
+Working with data vs working with code that works with data
+
+---
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vegie_buffet.jpg/1024px-Vegie_buffet.jpg)
+
+Note:
+using a database is like going from a buffet to ordering from the menu  it keeps the messy stuff out of view
+
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG/541px-Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG)
 
 ---
 
@@ -444,6 +439,7 @@ select *
 from table
 where ants > 1
 ```
+
 ---
 
 Deleting data
@@ -453,6 +449,7 @@ delete
 from ants
 where number_of_ants > 5000
 ```
+
 ---
 
 Updating data
@@ -460,7 +457,7 @@ Updating data
 ```SQL
 update
 ants
-set number_of_ants = 0
+set number_of_ants = NULL
 where number_of_ants == -9999
 ```
 
