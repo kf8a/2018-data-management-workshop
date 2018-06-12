@@ -91,8 +91,7 @@ Date,Treatment,Replicate,Crop,Yield_bu_A,Yield_kg_ha,Year
 
 #### Semi structured metadata
 
-https://github.com/EDIorg/MetadataTemplates
-
+![](http://oshtemo.kbs.msu.edu/bohms/edi.png)
 ---
 
 #### Structured metadata
@@ -129,41 +128,6 @@ Having structured metadata enables us to write programs that use the data. For
 example you remember the analysis programs on the EDI portal site. Nobody is
 siting around to write these program but John Porter wrote a style-sheet to
 translate the structured metadata into an analysis program.
-
----
-
-## Archive Format Exercise
-
-What is in the files in the archive/ directory?
-
-
-Note:
-- Archive-1 penguins csv
-- Archive-2 rainfall ods
-- Archive-3 meterology netcdf
-- Archive-4 radar monitoring data matlab
-- Archive-5 populations wk1
-- Archive-6 leaf litter wk3
-- Archive-7 mle carbon xlsx
-
----
-
-Why CSV?
-
-![file_formats](http://oshtemo.kbs.msu.edu/bohms/file-extension.png "file formats")
-
-Note:
-Here I looked up the approximate years when spreadsheet programs introduced and
-replaced file formats. I then added 14 years as the legacy time period when the
-same or other spreadsheets support the format. 14 years was the time between the
-release of the last spreadsheet that defaulted to .wk1 files to the time that MS
-ended support for .wk1
-
-ASCII has been around since 1960 and it's still in use 80 years later. I have a
-reasonable degree of confidence that it will be readable in the future.
-
-CSV is generally preferred by repositories, due to it's durability and
-compatibility.
 
 ---
 
@@ -319,13 +283,6 @@ improve the organization
 
 ---
 
-- Never modify your raw data. Always make a copy before making any changes.
-- Keep track of all of the steps you take to clean your data.
-- Organize your data according to tidy data principles.
-
-
----
-
 ## Common spreadsheet errors
 
 Note:
@@ -333,13 +290,9 @@ I wanted to run through a couple of common spreadsheet errors
 
 ---
 
-Using multiple tables
+Using multiple tables/tabs
 
 ![tables](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/2_datasheet_example.jpg)
-
----
-
-Using multiple tabs
 
 ---
 
@@ -362,22 +315,65 @@ Placing comments in cells
 Note:
 Comments are invisible to programs other than the program that created it.
 Depending on the settings they might be essentially invisible to :
+
 ---
 
 Combining values
 
 ---
 
+# Key points
+
+- Never modify your raw data. Always make a copy before making any changes.  <!-- .element: class="fragment" data-fragment-index="1" -->
+- Keep track of all of the steps you take to clean your data. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Organize your data according to tidy data principles. <!-- .element: class="fragment" data-fragment-index="3" -->
+
+---
+
+## Archive Format Exercise
+
+What is in the files in the archive/ directory?
+
+
+Note:
+- Archive-1 penguins csv
+- Archive-2 rainfall ods
+- Archive-3 meterology netcdf
+- Archive-4 radar monitoring data matlab
+- Archive-5 populations wk1
+- Archive-6 leaf litter wk3
+- Archive-7 mle carbon xlsx
+
+---
+
+Why CSV?
+
+![file_formats](http://oshtemo.kbs.msu.edu/bohms/file-extension.png "file formats")
+
+Note:
+Here I looked up the approximate years when spreadsheet programs introduced and
+replaced file formats. I then added 14 years as the legacy time period when the
+same or other spreadsheets support the format. 14 years was the time between the
+release of the last spreadsheet that defaulted to .wk1 files to the time that MS
+ended support for .wk1
+
+ASCII has been around since 1960 and it's still in use 80 years later. I have a
+reasonable degree of confidence that it will be readable in the future.
+
+CSV is generally preferred by repositories, due to it's durability and
+compatibility.
+
+---
+
 ## Cleaning messy datasets
 
 - http://openrefine.org
-- SQL
-
+- R, Matlab, Mathematica, Jpython, etc.
+- Database
 
 ---
 
 ## Data  organization in SQL
-
 
 Note:
 
