@@ -24,13 +24,17 @@ Here are some data sources that might be useful.
 
 ## Metadata exercise
 
-http://url-of-data
+`metadata/` <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 Note:
-which info do you want to see.
+This study was examining the effect of wolf spiders on insect abundances
+Take a look at the files and lets talk about what you would like to know about
+the data
 
----?image=http://oshtemo.kbs.msu.edu/bohms/mesocosm2009.jpeg
+---
+
+![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2009.jpeg)
 
 ---
 
@@ -48,13 +52,11 @@ What, Why, Where, When and Who
     - Project
     - Experiment
 - Protocols
-- Attributes and Units
 - Comments
 
 ---
 
 #### Unstructured metadata
-
 
 ```
 # Agronomic Yields - Annual Crops
@@ -62,10 +64,6 @@ What, Why, Where, When and Who
 # Original Data Source: https://lter.kbs.msu.edu/datatables/51
 # The newest version of the data https://lter.kbs.msu.edu/datatables/51.csv
 # Full EML Metadata: https://lter.kbs.msu.edu/datasets/23.eml
-#
-# These Data are copyrighted and use in a publication requires permission
-# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/
-# Use of the data constitutes acceptance of the terms.
 #
 #     VARIATE TABLE
 # Date		    harvest date
@@ -128,10 +126,17 @@ translate the structured metadata into an analysis program.
 
 ## Data Archiving Formats
 
-- CSV
-- CSV
-- CSV
+What is in the files in the archive/ directory?
 
+
+Note:
+- Archive-1 penguins csv
+- Archive-2 rainfall ods
+- Archive-3 meterology netcdf
+- Archive-4 radar monitoring data matlab
+- Archive-5 populations wk1
+- Archive-6 leaf litter wk3
+- Archive-7 mle carbon xlsx
 ---
 
 Why CSV?
@@ -180,9 +185,9 @@ Here we are focusing mostly on datasets that have a row and column structure.
 
 ### Principles of tidy data
 
-- Each variable forms a column.
-- Each observation forms a row.
-- Each type of observational unit forms a table.
+- Each variable forms a column. <!-- .element: class="fragment" data-fragment-index="1" -->
+- Each observation forms a row. <!-- .element: class="fragment" data-fragment-index="2" -->
+- Each type of observational unit forms a table. <!-- .element: class="fragment" data-fragment-index="3" -->
 
 Note:
 
@@ -238,11 +243,11 @@ analysis. For repeatable analyses there are better tools that a spreadsheet.
 
 ## Spreadsheet organization
 
-1. Put all your variables in columns.
-2. Put each observation in its own row.
-3. Don't combine multiple pieces of information in one cell.
-4. Leave the raw data raw - don't change it!
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format.
+1. Put all your variables in columns. <!-- .element: class="fragment" data-fragment-index="1" -->
+2. Put each observation in its own row. <!-- .element: class="fragment" data-fragment-index="2" -->
+3. Don't combine multiple pieces of information in one cell. <!-- .element: class="fragment" data-fragment-index="3" -->
+4. Leave the raw data raw - don't change it! <!-- .element: class="fragment" data-fragment-index="4" -->
+5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. <!-- .element: class="fragment" data-fragment-index="5" -->
 
 
 Note:
@@ -251,7 +256,7 @@ All variables should go into columns, the variables are the things that
 you are measuring like temperature, height, carbon, number of a species
 
 Each observation should be in it's own row (tidy data) so each sample on it's
-own row
+own row (tidy data)
 
 Don't combine multiple pieces of information in one cell.
 Sometimes it just seems like one thing, but think if that's the only way you’ll want to be able to use or sort that data.
@@ -261,16 +266,48 @@ This ensures that anyone can use the data, and is required by most data reposito
 
 ---
 
-## Spreadsheet organization
-
 ![organization](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/multiple-info.png)
 
+Note:
+
+For example in this spread sheet we have the species and sex combined in one
+column a better way to handle it would be split out the species and sex into
+their own column like this:
+---
+
+![](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/single-info.png)
+
+---
+
+![](http://oshtemo.kbs.msu.edu/bohms/messy2.png)
+
+
+---
+
+![](http://oshtemo.kbs.msu.edu/bohms/clean2.png)
 
 ---
 
 ## Spreadsheet exercise
 
-https://ndownloader.figshare.com/files/2252083
+Your job is to combine and organize the dataset in <!-- .element: class="fragment" data-fragment-index="1" -->
+`messy-data/` <!-- .element: class="fragment" data-fragment-index="1" -->
+
+Note:
+This is a simplified dataset from a small mammal community in southern Arizona.
+They are studying the effects of rodents and ants on the plant community for
+about 40 years. The rodents are sampled from a series of 24 plots. In the
+dataset we have there are two years of observations gathered by different
+graduate students. Your job is to combine the data and to improve the
+organization.  In small groups discuss what is wrong with the dataset and
+improve the organization
+
+---
+
+- Never modify your raw data. Always make a copy before making any changes.
+- Keep track of all of the steps you take to clean your data.
+- Organize your data according to tidy data principles.
+
 
 ---
 
@@ -303,13 +340,13 @@ Using formatting to convey information
 
 ---
 
-Making it pretty
-
-It is not a lab notebook
----
-
 Placing comments in cells
 
+![comments](http://oshtemo.kbs.msu.edu/bohms/comments.jpeg)
+
+Note:
+Comments are invisible to programs other than the program that created it.
+Depending on the settings they might be essentially invisible to :
 ---
 
 Combining values
