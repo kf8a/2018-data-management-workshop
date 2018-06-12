@@ -301,6 +301,9 @@ Problematic null values
 
 ![null_values](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/3_white_table_1.jpg)
 
+Note:
+White et al, 2013 in Ideas in Ecology and Evolution
+
 ---
 
 Using formatting to convey information
