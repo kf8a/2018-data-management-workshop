@@ -22,6 +22,12 @@ Here are some data sources that might be useful.
 
 ---
 
+### Data sources for the workshop
+
+https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
+
+---
+
 ## Data in context (metadata)
 
 ---
@@ -87,11 +93,6 @@ Date,Treatment,Replicate,Crop,Yield_bu_A,Yield_kg_ha,Year
 #,,,,bushelsPerAcre,kilogramsPerHectare,
 ```
 
----
-
-#### Semi structured metadata
-
-![](http://oshtemo.kbs.msu.edu/bohms/edi.png)
 ---
 
 #### Structured metadata
