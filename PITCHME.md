@@ -384,14 +384,15 @@ Note:
 Database tables are just like the spreadsheet tables except typed
 
 ---
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vegie_buffet.jpg/1024px-Vegie_buffet.jpg)
+
+Note:
+using a database is like going from a buffet to ordering from the menu  it keeps the messy stuff out of view
 
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG/541px-Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG)
 
-----
-
-Buffet vs ordering from a menu
 
 ---
 
