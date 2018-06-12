@@ -421,7 +421,7 @@ Working with data vs working with code that works with data
 
 - version control
 
-----
+---
 
 ### Importing data
 
