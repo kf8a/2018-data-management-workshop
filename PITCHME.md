@@ -164,6 +164,7 @@ reasonable degree of confidence that it will be readable in the future.
 
 CSV is generally preferred by repositories, due to it's durability and
 compatibility.
+
 ---
 
 ### Tidy data
@@ -381,10 +382,6 @@ Combining values
 Note:
 
 Database tables are just like the spreadsheet tables except typed
-
----
-
-
 
 ---
 
