@@ -52,7 +52,11 @@ What, Why, Where, When and Who
     - Project
     - Experiment
 - Protocols
+- Attributes and units
 - Comments
+
+Note:
+Err on the side of putting it in the data. For example if you have microplots in treatment 1 that might seem like metadata but it might be better to put it into the data because then it would be easier to combine with other data.
 
 ---
 
@@ -113,7 +117,7 @@ https://github.com/EDIorg/MetadataTemplates
 #### So what.
 
 
-https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.20.36
+https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-kbs.20.36 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note:
 So what, that looks like a lot of work.
@@ -124,7 +128,7 @@ translate the structured metadata into an analysis program.
 
 ---
 
-## Data Archiving Formats
+## Archive Format Exercise
 
 What is in the files in the archive/ directory?
 
@@ -137,6 +141,7 @@ Note:
 - Archive-5 populations wk1
 - Archive-6 leaf litter wk3
 - Archive-7 mle carbon xlsx
+
 ---
 
 Why CSV?
@@ -363,6 +368,15 @@ Combining values
 
 ## Data  organization in SQL
 
+
+Note:
+
+Database tables are just like the spreadsheet tables except typed
+
+---
+
+
+
 ---
 
 Buffet vs ordering from a menu
@@ -393,6 +407,10 @@ Working with data vs working with code that works with data
 ### SQL is bad at
 
 - version control
+
+----
+
+### Importing data
 
 ---
 
