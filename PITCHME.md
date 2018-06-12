@@ -385,6 +385,12 @@ Database tables are just like the spreadsheet tables except typed
 
 ---
 
+---
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG/541px-Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG)
+
+----
+
 Buffet vs ordering from a menu
 
 ---
