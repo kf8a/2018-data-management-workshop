@@ -5,6 +5,10 @@ KBS-LTER
 
 ---
 
+Thanks to Data Carpentry http://www.datacarpentry.org
+
+---
+
 ## Data sources
 
 - [KBS LTER data catalog](https://lter.kbs.msu.edu/datatables)
@@ -212,8 +216,6 @@ Each type of observation has it's own table
 [Data Organization in Spreadsheets](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 
 
-From Data Carpentry Spreadsheet in ecology lesson
-
 ---
 
 A spreadsheet is not a lab notebook
@@ -277,7 +279,8 @@ Note:
 
 For example in this spread sheet we have the species and sex combined in one
 column a better way to handle it would be split out the species and sex into
-their own column like this:
+their own column like this
+
 ---
 
 ![](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/single-info.png)
@@ -286,10 +289,16 @@ their own column like this:
 
 ![](http://oshtemo.kbs.msu.edu/bohms/messy2.png)
 
+Note:
+Here we have columns that are not variables we did not measure dates but counted beetles a better way to oranize this data whould be
 
 ---
 
 ![](http://oshtemo.kbs.msu.edu/bohms/clean2.png)
+
+Note:
+
+Pivot tables
 
 ---
 
