@@ -1,3 +1,8 @@
+---
+revealOptions:
+    transition: 'fade'
+---
+
 # Data Workshop
 KBS-LTER
 
@@ -22,7 +27,7 @@ https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
 - [KBS LTER data catalog](https://lter.kbs.msu.edu/datatables)
 - [GLBRC sustainability catalog](https://data.sustainability.glbrc.org)
 - [Environmental Data Initiative (EDI)](https://portal.edirepository.org/nis/home.jsp)
-- [Data One](https://www.dataone.org)
+- [Data One](https://search.dataone.org/#data )
 - [Dryad](https://datadryad.org)
 - bohms@msu.edu
 
