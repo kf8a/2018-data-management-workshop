@@ -1,15 +1,17 @@
 # Data Workshop
 KBS-LTER
 
-2018-06-12
-
----
-
-Thanks to Data Carpentry http://www.datacarpentry.org
+2018-06-14
 
 ---
 
 ### Data sources for the workshop
+
+https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
+
+---
+
+Thanks to Data Carpentry http://www.datacarpentry.org
 
 https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
 
@@ -177,11 +179,6 @@ Each type of observation has it's own table
 In database lingo this is organization is known as 3rd normal form. "[Every]
 non-key [attribute] must provide a fact about the key, the whole key, and
 nothing but the key."
-
----
-
-[Data Organization in Spreadsheets](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
-
 
 ---
 
