@@ -9,6 +9,12 @@ Thanks to Data Carpentry http://www.datacarpentry.org
 
 ---
 
+### Data sources for the workshop
+
+https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
+
+---
+
 ## Data sources
 
 - [KBS LTER data catalog](https://lter.kbs.msu.edu/datatables)
@@ -19,12 +25,6 @@ Thanks to Data Carpentry http://www.datacarpentry.org
 
 Note:
 Here are some data sources that might be useful.
-
----
-
-### Data sources for the workshop
-
-https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
 
 ---
 
@@ -41,15 +41,6 @@ Note:
 This study was examining the effect of wolf spiders on insect abundances
 Take a look at the files and lets talk about what you would like to know about
 the data
-
----
-
-![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2009.jpeg)
-
----
-
-
-![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2011.jpeg)
 
 ---
 
@@ -177,6 +168,10 @@ capture record, it might be...
 
 Each type of observation has it's own table
 
+In database lingo this is organization is known as 3rd normal form. "[Every]
+non-key [attribute] must provide a fact about the key, the whole key, and
+nothing but the key."
+
 ---
 
 [Data Organization in Spreadsheets](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
@@ -268,6 +263,20 @@ Pivot tables
 
 ---
 
+![](http://oshtemo.kbs.msu.edu/bohms/3rd-normal-form.png)
+
+
+Note:
+
+How does this table violate the tidy data principles?
+
+Birth date should be the same for each mouse, so in repeating it in the table we
+are allowing for error. We should probably organize it into two tables one with
+the sample_date, mouse_id and weight and the other one with the mouse_id and
+birth_date.
+
+---
+
 ## Spreadsheet exercise
 
 Your job is to combine and organize the dataset in <!-- .element: class="fragment" data-fragment-index="1" -->
@@ -302,7 +311,7 @@ Problematic null values
 ![null_values](http://www.datacarpentry.org/spreadsheet-ecology-lesson/fig/3_white_table_1.jpg)
 
 Note:
-White et al, 2013 in Ideas in Ecology and Evolution
+White et. al., 2013 in Ideas in Ecology and Evolution
 
 ---
 
@@ -317,12 +326,8 @@ Placing comments in cells
 ![comments](http://oshtemo.kbs.msu.edu/bohms/comments.jpeg)
 
 Note:
-Comments are invisible to programs other than the program that created it.
-Depending on the settings they might be essentially invisible to :
-
----
-
-Combining values
+Depending on the settings they might be essentially invisible
+They often get lost when going to a different analysis program
 
 ---
 
@@ -375,6 +380,8 @@ compatibility.
 - R, Matlab, Mathematica, Jpython, etc.
 - Database
 
+Prevention is better than curing <!-- .element: class="fragment" data-fragment-index="1" -->
+
 ---
 
 ## Data  organization in SQL
@@ -388,37 +395,12 @@ Database tables are just like the spreadsheet tables except typed
 ### Tasks
 - selecting subset of data
 - group subsets of data
-- do calculations
+- calculations
 - combine data
 
 ---
 
-### What is SQL good for
-
-- rapid access
-- input validation and checking
-- one source of truth
-- representation of data for analysis
-
----
-
-### SQL is bad at
-
-- version control
-
----
-
 Working with data vs working with code that works with data
-
----
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Vegie_buffet.jpg/1024px-Vegie_buffet.jpg)
-
-Note:
-using a database is like going from a buffet to ordering from the menu  it keeps the messy stuff out of view
-
----
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG/541px-Speisekarte-Wirtshaus-Sendling-Albert-Rosshaupter-Strasse.JPG)
 
 ---
 
@@ -442,45 +424,23 @@ where ants > 1
 
 ---
 
-Deleting data
-
-```SQL
-delete
-from ants
-where number_of_ants > 5000
-```
+TDR data
 
 ---
 
-Updating data
-
-```SQL
-update
-ants
-set number_of_ants = NULL
-where number_of_ants == -9999
-```
+R (MLE Carbon)
 
 ---
 
-Saving queries
-
-```SQL
-create view select * from table where number_of_ants > 1
-```
+Thank you
 
 ---
 
-SQL joins
-
-```SQL
-select number_of_ants, preciptation
-from ants
-join weather on ants.date = weather.date
-```
+![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2009.jpeg)
 
 ---
 
-bohms@msu.edu
+
+![](http://oshtemo.kbs.msu.edu/bohms/mesocosm2011.jpeg)
 
 ---
