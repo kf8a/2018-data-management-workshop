@@ -26,6 +26,10 @@ https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
 Note:
 Here are some data sources that might be useful.
 
+If you work on the LTER site you are also expected to contribute your data to
+the catalog at the end of your work so that future researchers can benefit from
+your work just as you are currently.
+
 ---
 
 ## Data in context (metadata)
