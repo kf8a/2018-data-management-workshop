@@ -22,6 +22,7 @@ https://lter.kbs.msu.edu/docs/workshop-data-2018.zip
 - [Environmental Data Initiative (EDI)](https://portal.edirepository.org/nis/home.jsp)
 - [Data One](https://www.dataone.org)
 - [Dryad](https://datadryad.org)
+- bohms@msu.edu
 
 Note:
 Here are some data sources that might be useful.
@@ -29,6 +30,7 @@ Here are some data sources that might be useful.
 If you work on the LTER site you are also expected to contribute your data to
 the catalog at the end of your work so that future researchers can benefit from
 your work just as you are currently.
+
 
 ---
 
